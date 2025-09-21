@@ -340,6 +340,10 @@ a:hover {
   letter-spacing: 0.5px;
 }
 
+.whatsapp ul li::before {
+  display: none;
+}
+
 .status-upcoming {
   background: rgba(251, 191, 36, 0.1);
   color: #d97706;
@@ -361,6 +365,11 @@ a:hover {
   .card {
     padding: 1.5rem;
   }
+}
+.cardsec{
+    gap: 1rem;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
